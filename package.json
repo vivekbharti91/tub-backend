@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "a backend for youtube like ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "nodemon index"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
     "vivek"
   ],
   "author": "vivek",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
