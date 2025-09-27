@@ -1,4 +1,4 @@
-class apiRespose {
+class apiResponse {
     constructor(
         statusCode,
         data,
@@ -10,3 +10,4 @@ class apiRespose {
         this.success = statusCode < 400
     }
 }
+export {apiResponse}
